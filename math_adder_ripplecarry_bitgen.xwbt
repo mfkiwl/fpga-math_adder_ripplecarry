@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Coert\Documents\GitHub\fpga-math-add-ripplecarry\math_adder_ripplecarry.ncd
+OUTFILE=C:\Users\Coert\Documents\GitHub\fpga-math-add-ripplecarry\math_adder_ripplecarry.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=C:\Users\Coert\Documents\GitHub\fpga-math-add-ripplecarry
+LICENSE=WebPack
+USER_INFO=208790051_208823088_0_017

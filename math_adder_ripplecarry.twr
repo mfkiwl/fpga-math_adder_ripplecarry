@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml math_adder_ripplecarry.twx math_adder_ripplecarry.ncd -o
+math_adder_ripplecarry.twr math_adder_ripplecarry.pcf -ucf
+math_adder_ripplecarry.ucf
+
+Design file:              math_adder_ripplecarry.ncd
+Physical constraint file: math_adder_ripplecarry.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |s<0>           |    9.345|
+a<0>           |s<1>           |    9.800|
+a<0>           |s<2>           |   10.361|
+a<0>           |s<3>           |   10.598|
+a<0>           |s<4>           |   10.561|
+a<1>           |s<1>           |    9.563|
+a<1>           |s<2>           |   10.124|
+a<1>           |s<3>           |   10.361|
+a<1>           |s<4>           |   10.324|
+a<2>           |s<2>           |    9.694|
+a<2>           |s<3>           |    9.655|
+a<2>           |s<4>           |    9.618|
+a<3>           |s<3>           |    9.734|
+a<3>           |s<4>           |    9.697|
+b<0>           |s<0>           |    9.538|
+b<0>           |s<1>           |    9.788|
+b<0>           |s<2>           |   10.349|
+b<0>           |s<3>           |   10.586|
+b<0>           |s<4>           |   10.549|
+b<1>           |s<1>           |    9.556|
+b<1>           |s<2>           |   10.117|
+b<1>           |s<3>           |   10.354|
+b<1>           |s<4>           |   10.317|
+b<2>           |s<2>           |   10.082|
+b<2>           |s<3>           |    9.945|
+b<2>           |s<4>           |    9.908|
+b<3>           |s<3>           |    9.676|
+b<3>           |s<4>           |    9.639|
+ci             |s<0>           |    8.878|
+ci             |s<1>           |    9.095|
+ci             |s<2>           |    9.656|
+ci             |s<3>           |    9.893|
+ci             |s<4>           |    9.856|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 20 10:59:42 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 237 MB
+
+
+
